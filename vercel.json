@@ -2,5 +2,19 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "buildCommand": null,
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "drsuraajwellness.com" }],
+      "destination": "https://www.drsuraajclinic.com/wellness",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.drsuraajwellness.com" }],
+      "destination": "https://www.drsuraajclinic.com/wellness",
+      "permanent": true
+    }
+  ]
 }
