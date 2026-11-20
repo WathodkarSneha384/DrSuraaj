@@ -10,7 +10,18 @@
       "has": [
         {
           "type": "host",
-          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/iv/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
         }
       ],
       "destination": "https://www.drsuraajclinic.com/wellness/#iv-hydration",
@@ -21,7 +32,40 @@
       "has": [
         {
           "type": "host",
-          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/diet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/dietician",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/dietician/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
         }
       ],
       "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
@@ -32,7 +76,40 @@
       "has": [
         {
           "type": "host",
-          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/weight/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/weight-loss",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/weight-loss/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
         }
       ],
       "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
@@ -43,7 +120,18 @@
       "has": [
         {
           "type": "host",
-          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-skin-hair",
+      "permanent": true
+    },
+    {
+      "source": "/skin/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
         }
       ],
       "destination": "https://www.drsuraajclinic.com/wellness/#iv-skin-hair",
@@ -54,10 +142,32 @@
       "has": [
         {
           "type": "host",
-          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+          "value": "drsuraajwellness.com"
         }
       ],
       "destination": "https://www.drsuraajclinic.com/wellness/#book",
+      "permanent": true
+    },
+    {
+      "source": "/book/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#book",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/",
       "permanent": true
     },
     {
@@ -65,7 +175,183 @@
       "has": [
         {
           "type": "host",
-          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+          "value": "drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/",
+      "permanent": true
+    },
+    {
+      "source": "/iv",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/iv/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/diet",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/diet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/dietician",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/dietician/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/weight",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/weight/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/weight-loss",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/weight-loss/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/skin",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-skin-hair",
+      "permanent": true
+    },
+    {
+      "source": "/skin/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-skin-hair",
+      "permanent": true
+    },
+    {
+      "source": "/book",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#book",
+      "permanent": true
+    },
+    {
+      "source": "/book/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#book",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.drsuraajwellness.com"
         }
       ],
       "destination": "https://www.drsuraajclinic.com/wellness/",
