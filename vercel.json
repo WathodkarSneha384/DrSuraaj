@@ -221,5 +221,11 @@
       "destination": "/wellness/#book",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/google3960f43f6420a7fc.html",
+      "destination": "/google3960f43f6420a7fc/"
+    }
   ]
 }
