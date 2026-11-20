@@ -1,19 +1,89 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "buildCommand": null,
-  "outputDirectory": ".",
+  "framework": "nextjs",
+  "installCommand": "npm ci",
+  "buildCommand": "next build",
+  "trailingSlash": true,
   "redirects": [
     {
-      "source": "/:path*",
-      "has": [{ "type": "host", "value": "drsuraajwellness.com" }],
-      "destination": "https://www.drsuraajclinic.com/wellness",
+      "source": "/iv",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/diet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/weight",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/skin",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#iv-skin-hair",
+      "permanent": true
+    },
+    {
+      "source": "/book",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/#book",
       "permanent": true
     },
     {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "www.drsuraajwellness.com" }],
-      "destination": "https://www.drsuraajclinic.com/wellness",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?drsuraajwellness(care)?\\.com"
+        }
+      ],
+      "destination": "https://www.drsuraajclinic.com/wellness/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/#about",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/#contact",
+      "permanent": true
+    },
+    {
+      "source": "/category/dr-suraajs-clinic",
+      "destination": "/blog/",
       "permanent": true
     }
   ]

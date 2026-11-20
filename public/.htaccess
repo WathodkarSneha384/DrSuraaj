@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# Apache hosting (Hostinger / GoDaddy / cPanel). Uploaded automatically with the
+# contents of /out. Safe to keep even if your host ignores it.
+# ---------------------------------------------------------------------------
+Options -MultiViews
+RewriteEngine On
+
+# 1) drsuraajwellness.com -> main site wellness page (301, permanent).
+#    Works if drsuraajwellness.com is added to this hosting as an alias/parked/addon domain.
+#    If you set up forwarding at the domain registrar instead, these rules simply never run.
+#    Short links for ads & print: drsuraajwellness.com/iv, /diet, /weight, /skin, /book
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteRule ^iv/?$ https://www.drsuraajclinic.com/wellness/#iv-hydration [R=301,L,NE,QSA]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteRule ^diet(ician)?/?$ https://www.drsuraajclinic.com/wellness/#dietician [R=301,L,NE,QSA]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteRule ^weight(-loss)?/?$ https://www.drsuraajclinic.com/wellness/#weight-loss [R=301,L,NE,QSA]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteRule ^skin/?$ https://www.drsuraajclinic.com/wellness/#iv-skin-hair [R=301,L,NE,QSA]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteRule ^book/?$ https://www.drsuraajclinic.com/wellness/#book [R=301,L,NE,QSA]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteRule ^ https://www.drsuraajclinic.com/wellness/ [R=301,L,QSA]
+
+# 2) One canonical address: https://www.drsuraajclinic.com (always www + HTTPS)
+RewriteCond %{HTTP_HOST} ^drsuraajclinic\.com$ [NC]
+RewriteRule ^(.*)$ https://www.drsuraajclinic.com/$1 [R=301,L]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://www.drsuraajclinic.com/$1 [R=301,L]
+
+# 3) Old WordPress addresses -> new pages (keeps their Google ranking).
+#    The 4 old blog posts are NOT redirected: recreate them at the same URLs first,
+#    or keep WordPress serving them. Adjust/remove lines that don't apply.
+RewriteRule ^(about|about-us)/?$ https://www.drsuraajclinic.com/#about [R=301,L,NE]
+RewriteRule ^(services|our-services)/?$ https://www.drsuraajclinic.com/#services [R=301,L,NE]
+RewriteRule ^(contact|contact-us)/?$ https://www.drsuraajclinic.com/#contact [R=301,L,NE]
+RewriteRule ^category/(dr-suraajs-clinic|blog)/?$ https://www.drsuraajclinic.com/blog/ [R=301,L]
+
+# 4) Custom 404 page
+ErrorDocument 404 /404.html
+
+# 5) Speed: cache static files, compress text
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/plain application/xml
+</IfModule>

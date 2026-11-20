@@ -1,101 +1,5 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Health Library: Diabetes, Nutrition &amp; Wellness Articles | Dr. Suraaj Clinic, Wakad, Pune</title>
-<meta name="description" content="Doctor-written health articles from Dr. Suraaj Clinic, Wakad: type 2 diabetes, vitamins and minerals, gut health, nutrition and wellness, for patients across Pune and Pimpri-Chinchwad.">
-<link rel="canonical" href="https://drsuraajclinic.com/blog/"><meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:type" content="website"><meta property="og:title" content="Health Library – Dr. Suraaj Clinic"><meta property="og:url" content="https://drsuraajclinic.com/blog/">
-<meta property="og:image" content="https://drsuraajclinic.com/images/dr-suraaj-portrait.jpg"><meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@graph": [
-  {
-   "@type": "Blog",
-   "@id": "https://drsuraajclinic.com/blog/#blog",
-   "url": "https://drsuraajclinic.com/blog/",
-   "name": "Health Library – Dr. Suraaj Clinic",
-   "description": "Doctor-written articles on diabetes, metabolic health, nutrition, gut health and wellness from Dr. Suraaj Clinic, Wakad, Pune.",
-   "inLanguage": "en-IN",
-   "publisher": {
-    "@id": "https://drsuraajclinic.com/#clinic"
-   },
-   "blogPost": [
-    {
-     "@type": "BlogPosting",
-     "headline": "Type 2 Diabetes: Symptoms, Causes, Diagnosis, Treatment & Long-Term Management",
-     "url": "https://drsuraajclinic.com/type-2-diabetes-symptoms-treatment/",
-     "datePublished": "2026-11-02",
-     "author": {
-      "@type": "Person",
-      "name": "Dr. Suraaj Gadiwadd"
-     }
-    },
-    {
-     "@type": "BlogPosting",
-     "headline": "Unlocking the Power of Zinc: The Unsung Hero of Your Health",
-     "url": "https://drsuraajclinic.com/unlocking-the-power-of-zinc-the-unsung-hero-of-your-health/",
-     "datePublished": "2024-10-14",
-     "author": {
-      "@type": "Organization",
-      "name": "Dr. Suraaj Clinic"
-     }
-    },
-    {
-     "@type": "BlogPosting",
-     "headline": "Vitamin C: The Essential Nutrient for Immunity, Heart Health and Beyond",
-     "url": "https://drsuraajclinic.com/vitamin-c-the-nutrient/",
-     "datePublished": "2024-10-14",
-     "author": {
-      "@type": "Organization",
-      "name": "Dr. Suraaj Clinic"
-     }
-    },
-    {
-     "@type": "BlogPosting",
-     "headline": "The Unsung Hero: Magnesium's Role in Our Body",
-     "url": "https://drsuraajclinic.com/the-unsung-hero-magnesiums-wicked-role-in-our-body/",
-     "datePublished": "2024-10-14",
-     "author": {
-      "@type": "Organization",
-      "name": "Dr. Suraaj Clinic"
-     }
-    },
-    {
-     "@type": "BlogPosting",
-     "headline": "The Epic Journey of Lactobacillus Reuteri: Your Gut's Superhero",
-     "url": "https://drsuraajclinic.com/the-epic-journey-of-lactobacillus-reuteri-your-guts-superhero/",
-     "datePublished": "2024-10-14",
-     "author": {
-      "@type": "Organization",
-      "name": "Dr. Suraaj Clinic"
-     }
-    }
-   ]
-  },
-  {
-   "@type": "BreadcrumbList",
-   "itemListElement": [
-    {
-     "@type": "ListItem",
-     "position": 1,
-     "name": "Home",
-     "item": "https://drsuraajclinic.com/"
-    },
-    {
-     "@type": "ListItem",
-     "position": 2,
-     "name": "Health Library",
-     "item": "https://drsuraajclinic.com/blog/"
-    }
-   ]
-  }
- ]
-}
-</script>
-<style>
+/* Global styles for Dr. Suraaj Clinic. Converted from the approved HTML design. */
+
   :root{
     --green-900:#123227;
     --green-800:#1b4535;
@@ -111,8 +15,8 @@
     --line:#e3ddd1;
     --radius:20px;
     --shadow:0 18px 40px -22px rgba(18,50,39,.35);
-    --serif:"Cormorant Garamond", Georgia, serif;
-    --sans:"Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --serif:var(--font-serif), "Cormorant Garamond", Georgia, serif;
+    --sans:var(--font-sans), "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
@@ -398,12 +302,14 @@
   /* Approach (poster + signboard) */
   .approach{background:var(--green-900);color:#cfded5;overflow:hidden}
   .approach h2{color:#fff}.approach .lead{color:#b9cbc1}
-  .approach .wrap{display:grid;grid-template-columns:1fr 1.15fr;gap:56px;align-items:center}
-  .approach-media{display:grid;grid-template-columns:.8fr 1fr;gap:18px;align-items:center}
-  .approach-media figure{border-radius:20px;overflow:hidden;border:1px solid rgba(184,146,74,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.6);transition:transform .5s}
-  .approach-media figure:hover{transform:scale(1.03) rotate(-.5deg)}
-  .approach-media figure:first-child{transform:translateY(-20px)}
-  .approach-media figure:first-child:hover{transform:translateY(-24px) scale(1.03)}
+  .approach .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .approach-visual{position:relative;padding:12px}
+  .approach-visual::before{content:"";position:absolute;inset:6% 4% 14%;border-radius:50%;background:radial-gradient(closest-side,rgba(184,146,74,.32),rgba(184,146,74,0));filter:blur(24px);pointer-events:none}
+  .approach-visual figure{position:relative;margin:0;border-radius:24px;overflow:hidden;border:1px solid rgba(184,146,74,.55);box-shadow:0 40px 80px -40px rgba(0,0,0,.7);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+  .approach-visual figure:hover{transform:translateY(-6px)}
+  .approach-visual img{width:100%;height:auto;display:block}
+  .approach-chip{position:relative;display:table;margin:20px auto 0;white-space:nowrap;background:var(--ivory);color:var(--green-900);font-size:13.5px;font-weight:600;padding:10px 18px;border-radius:999px;box-shadow:var(--shadow);border:1px solid var(--gold-soft)}
+  .approach-chip b{color:var(--gold-ink);font-size:15px;font-weight:800}
   .pillars{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:26px}
   .pillars div{padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);font-size:14px;transition:.3s}
   .pillars div:hover{border-color:var(--gold);background:rgba(184,146,74,.1)}
@@ -441,8 +347,8 @@
   .author img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid var(--gold-soft)}
   .coming{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;justify-content:center}
   .coming span{font-size:13px;padding:8px 14px;border-radius:999px;border:1px dashed var(--gold);color:var(--muted)}
-  @media (max-width:980px){.approach .wrap{grid-template-columns:minmax(0,1fr)}.cert-grid{grid-template-columns:1fr 1fr}.article-feature{grid-template-columns:1fr}}
-  @media (max-width:640px){.cert-grid{grid-template-columns:1fr}.article-feature .body{padding:26px 22px}.pillars{grid-template-columns:1fr}.approach-media figure:first-child{transform:none}}
+  @media (max-width:980px){.approach .wrap{grid-template-columns:minmax(0,1fr);gap:40px}.approach-visual{max-width:560px;margin:auto;width:100%}.cert-grid{grid-template-columns:1fr 1fr}.article-feature{grid-template-columns:1fr}}
+  @media (max-width:640px){.cert-grid{grid-template-columns:1fr}.article-feature .body{padding:26px 22px}.pillars{grid-template-columns:1fr}.approach-chip{white-space:normal;text-align:center;font-size:12.5px}}
 
   /* Hours & map */
   .loc .dir-link{display:inline-block;margin-top:10px;font-weight:700;font-size:14px;color:var(--gold)}
@@ -527,6 +433,44 @@
     .eyebrow{font-size:11px;letter-spacing:.14em}
   }
 
+/* ===== Wellness page ===== */
+  .w-hero{padding:64px 0 88px;background:radial-gradient(900px 500px at 85% 10%,rgba(184,146,74,.16),transparent 60%),radial-gradient(700px 500px at 0% 100%,rgba(79,138,107,.16),transparent 60%),var(--cream)}
+  .w-hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .w-hero h1{font-size:clamp(38px,5.2vw,62px);margin:16px 0 18px}
+  .w-hero h1 em{font-style:italic;color:var(--gold)}
+  .crumbs{font-size:13px;color:var(--muted)}.crumbs a{text-decoration:underline}
+  .w-visual{position:relative}
+  .w-visual .frame{border-radius:28px;overflow:hidden;border:8px solid #fff;box-shadow:0 40px 80px -40px rgba(18,50,39,.55);aspect-ratio:4/5}
+  .w-visual .frame img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+  .promise{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px;max-width:600px}
+  .promise div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-size:13px;color:var(--muted)}
+  .promise b{display:block;color:var(--green-900);font-size:14px}
+  .card-cta{display:inline-block;margin-top:16px;font-weight:700;font-size:14px;color:var(--gold)}
+  .svc.feature .card-cta{color:var(--gold-soft)}
+  .svc{scroll-margin-top:110px}
+  .packages{background:var(--cream)}
+  .pkg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px}
+  .pkg{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;display:flex;flex-direction:column;transition:transform .35s,box-shadow .35s,border-color .35s}
+  .pkg:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:var(--gold)}
+  .pkg.best{border:2px solid var(--gold);position:relative}
+  .pkg.best::before{content:"Most chosen";position:absolute;top:-13px;left:24px;background:var(--gold);color:#fff;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+  .pkg h3{font-size:26px}.pkg .price{font-family:var(--serif);font-size:30px;color:var(--green-800);margin:10px 0 4px}
+  .pkg .price small{font-family:var(--sans);font-size:13px;color:var(--muted)}
+  .pkg ul{list-style:none;display:grid;gap:8px;margin:16px 0 24px;font-size:14.5px;flex:1}
+  .pkg li::before{content:"✓";color:var(--green-700);font-weight:700;margin-right:10px}
+  .areas .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
+  .area-group h3{font-size:22px;margin:0 0 12px}
+  .area-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+  .area-chips span{font-size:13.5px;font-weight:600;color:var(--green-800);background:var(--green-100);border:1px solid #d3e1d8;padding:7px 13px;border-radius:999px}
+  .safety-list{list-style:none;display:grid;gap:12px;margin-top:22px}
+  .safety-list li{display:flex;gap:12px;align-items:flex-start;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:14px 16px;font-size:14.5px}
+  .safety-list i{font-style:normal;color:var(--gold);font-weight:700}
+  #book{scroll-margin-top:90px}
+  @media (min-width:981px){#services .grid-services>:last-child:nth-child(3n+1){grid-column:1/-1}}
+  @media (max-width:980px){.w-hero .wrap,.areas .wrap{grid-template-columns:minmax(0,1fr)}.w-visual{max-width:460px;margin:auto;width:100%}.pkg-grid{grid-template-columns:1fr}}
+  @media (max-width:640px){.promise{grid-template-columns:1fr}.w-hero{padding:40px 0 64px}}
+
+/* ===== Blog ===== */
   .b-hero{padding:56px 0 40px;background:radial-gradient(800px 400px at 90% 0%,rgba(184,146,74,.16),transparent 60%),var(--cream);border-bottom:1px solid var(--line)}
   .b-hero h1{font-size:clamp(38px,5vw,60px);margin:14px 0 12px}
   .crumbs{font-size:13px;color:var(--muted)}.crumbs a{text-decoration:underline}
@@ -562,70 +506,131 @@
   .sub h3{color:#fff;font-size:28px}
   @media (max-width:980px){.feat{grid-template-columns:1fr}.posts{grid-template-columns:1fr}.soon-grid{grid-template-columns:1fr 1fr}}
   @media (max-width:640px){.post{grid-template-columns:84px 1fr}.post-body{padding:18px}.feat .fb,.feat .fa{padding:26px 22px}.soon-grid{grid-template-columns:1fr}.sub{padding:28px 22px}}
-</style>
-</head><body>
-<div class="progress" id="progress" aria-hidden="true"></div>
-<div class="topbar"><div class="wrap"><span class="hide-sm">📍 Sonigara Landmark Complex, Wakad, Pune</span><span>📞 <a href="tel:+919371710257">+91 93717 10257</a></span><span class="hide-sm">🕘 Open 7 days</span></div></div>
-<header class="nav"><div class="wrap" style="position:relative">
-  <a href="../" class="brand" aria-label="Dr. Suraaj Clinic home"><svg viewBox="0 0 64 64" aria-hidden="true">
-        <circle cx="32" cy="32" r="30" fill="#fff" stroke="#1b4535" stroke-width="2.5"/>
-        <circle cx="32" cy="32" r="25" fill="none" stroke="#b8924a" stroke-width="1"/>
-        <path d="M20 40c0-10 6-16 13-17-1 9-6 15-13 17z" fill="#1b4535"/>
-        <path d="M44 18c-2 10-7 18-15 23 3-9 8-17 15-23z" fill="#4f8a6b"/>
-        <path d="M30 44c4-6 9-9 14-10" stroke="#b8924a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-        <circle cx="30" cy="17" r="4" fill="#1b4535"/>
-        <path d="M43 38v10M38 43h10" stroke="#1b4535" stroke-width="3.2" stroke-linecap="round"/>
-      </svg><div><span class="brand-name">Dr. Suraaj Clinic</span><span class="brand-sub">&amp; Advanced Wellness Center</span></div></a>
-  <nav aria-label="Main"><ul id="menu">
-    <li><a href="../#services">Services</a></li><li><a href="../#general-physician">General Physician</a></li><li><a href="../wellness/">Wellness</a></li>
-    <li><a href="./" class="active">Blog</a></li><li><a href="../#about">The Doctor</a></li><li><a href="../#contact">Contact</a></li></ul></nav>
-  <a href="../#contact" class="btn btn-primary nav-cta">Book Appointment</a>
-  <button class="menu-btn" aria-label="Open menu" onclick="document.getElementById('menu').classList.toggle('open')"><span></span><span></span><span></span></button>
-</div></header>
-<main>
-<section class="b-hero"><div class="wrap reveal">
-  <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a> › Health Library</nav>
-  <span class="eyebrow" style="margin-top:14px">Health Library</span>
-  <h1>Learn from Dr. Suraaj</h1>
-  <p class="lead">Clear, evidence-based articles on diabetes, nutrition, gut health and wellness, written for patients in Pune and Pimpri-Chinchwad.</p>
-  <div class="chips" role="tablist"><button class="chip on" data-f="all">All articles</button><button class="chip" data-f="diabetes">Diabetes &amp; Metabolic</button><button class="chip" data-f="nutrition">Vitamins &amp; Nutrition</button><button class="chip" data-f="gut">Gut Health</button><button class="chip" data-f="wellness">Wellness</button></div>
-</div></section>
-<section class="b-main"><div class="wrap">
-  <a class="feat reveal" href="../type-2-diabetes-symptoms-treatment/" data-cat="diabetes">
-    <div class="fb"><small>Diabetes &amp; Metabolic Health</small><span class="badge-new">New</span>
-      <h2>Type 2 Diabetes: Symptoms, Causes, Diagnosis, Treatment &amp; Long-Term Management</h2><p>Early signs, HbA1c ranges, medicines, the Indian diabetes plate and whether diabetes can go into remission.</p>
-      <div class="author"><img src="../images/dr-suraaj-square.jpg" width="44" height="44" alt="" loading="lazy"><span>By <b style="color:var(--green-900)">Dr. Suraaj Gadiwadd</b> · 2 Nov 2026 · 15 min read</span></div>
-      <span class="btn btn-primary" style="margin-top:22px">Read the article →</span></div>
-    <div class="fa" aria-hidden="true"><div style="font-family:var(--serif);font-size:26px;margin-bottom:6px">Know your numbers</div>
-      <div class="stat-row"><span>HbA1c – normal</span><b>below 5.7%</b></div><div class="stat-row"><span>HbA1c – prediabetes</span><b>5.7 – 6.4%</b></div>
-      <div class="stat-row"><span>HbA1c – diabetes</span><b>6.5% or above</b></div><div class="stat-row"><span>Fasting glucose – diabetes</span><b>126 mg/dL or above</b></div></div>
-  </a>
-  <div class="posts stagger"><a class="post" href="https://drsuraajclinic.com/unlocking-the-power-of-zinc-the-unsung-hero-of-your-health/" data-cat="nutrition"><div class="post-art art-nutrition"><svg viewBox="0 0 24 24" aria-hidden="true"><text x="12" y="16" text-anchor="middle" font-size="9" font-weight="700" stroke="none" fill="currentColor">Zn</text><circle cx="12" cy="12" r="9"/></svg></div>
-  <div class="post-body"><small>Vitamins &amp; Minerals</small><h3>Unlocking the Power of Zinc: The Unsung Hero of Your Health</h3><p>Why zinc matters for immunity, wound healing, skin and healthy ageing, and where to get it in your diet.</p><span class="meta">14 Oct 2024</span></div></a><a class="post" href="https://drsuraajclinic.com/vitamin-c-the-nutrient/" data-cat="nutrition"><div class="post-art art-nutrition"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v16M4 12h16M6.3 6.3l11.4 11.4M17.7 6.3L6.3 17.7"/></svg></div>
-  <div class="post-body"><small>Vitamins &amp; Minerals</small><h3>Vitamin C: The Essential Nutrient for Immunity, Heart Health and Beyond</h3><p>Vitamin C's role in immunity, iron absorption, collagen and heart health, plus the best food sources.</p><span class="meta">14 Oct 2024</span></div></a><a class="post" href="https://drsuraajclinic.com/the-unsung-hero-magnesiums-wicked-role-in-our-body/" data-cat="nutrition"><div class="post-art art-nutrition"><svg viewBox="0 0 24 24" aria-hidden="true"><text x="12" y="16" text-anchor="middle" font-size="9" font-weight="700" stroke="none" fill="currentColor">Mg</text><circle cx="12" cy="12" r="9"/></svg></div>
-  <div class="post-body"><small>Vitamins &amp; Minerals</small><h3>The Unsung Hero: Magnesium's Role in Our Body</h3><p>How magnesium supports muscles, heart rhythm, sleep and blood sugar, and how its supplement forms differ.</p><span class="meta">14 Oct 2024</span></div></a><a class="post" href="https://drsuraajclinic.com/the-epic-journey-of-lactobacillus-reuteri-your-guts-superhero/" data-cat="gut"><div class="post-art art-gut"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4c-3 0-4 3-2 5s6 1 6 4-5 2-5 5 4 3 6 1"/><path d="M16 4c2 1 3 3 2 5"/></svg></div>
-  <div class="post-body"><small>Gut Health</small><h3>The Epic Journey of Lactobacillus Reuteri: Your Gut's Superhero</h3><p>What this probiotic does for digestion, immunity and skin, and how to get it.</p><span class="meta">14 Oct 2024</span></div></a></div>
-  <p class="empty-msg hide" style="margin-top:24px;color:var(--muted)">No published articles in this topic yet. See what's coming below.</p>
-  <div class="soon-wrap reveal"><h2>Coming next</h2><p class="lead">New articles from Dr. Suraaj every one to two weeks.</p><div class="soon-grid"><div class="soon" data-cat="diabetes"><span>Coming soon</span>Fatty liver (MASLD): causes, grades &amp; reversal</div><div class="soon" data-cat="diabetes"><span>Coming soon</span>Insulin resistance: signs and tests</div><div class="soon" data-cat="nutrition"><span>Coming soon</span>Indian diabetes diet: a 7-day plan</div><div class="soon" data-cat="wellness"><span>Coming soon</span>IV therapy: who it helps and who should avoid it</div><div class="soon" data-cat="nutrition"><span>Coming soon</span>Vitamin B12 &amp; D deficiency in Pune's IT workforce</div><div class="soon" data-cat="wellness"><span>Coming soon</span>PCOS and weight: a doctor-led approach</div><div class="soon" data-cat="diabetes"><span>Coming soon</span>Thyroid problems and weight gain</div><div class="soon" data-cat="wellness"><span>Coming soon</span>Hair fall: nutrition and deficiency causes</div></div></div>
-  <div class="sub reveal"><div><h3>Have a question about your health?</h3><p>Consult Dr. Suraaj in Wakad, or online from anywhere in Pune.</p></div>
-    <a class="btn btn-gold" href="https://wa.me/919371710257?text=Hi%2C%20I%20read%20your%20health%20article%20and%20would%20like%20a%20consultation" target="_blank" rel="noopener">Ask on WhatsApp</a></div>
-</div></section>
-</main>
-<footer><div class="wrap"><div class="copy" style="border:0;padding:0"><span>© <span id="yr">2026</span> Dr. Suraaj Clinic &amp; Advanced Wellness Center · Shop 101, Sonigara Landmark Complex, Chatrapati Chowk Rd, Wakad, Pune 411057 · <a href="tel:+919371710257" style="color:#fff">+91 93717 10257</a></span><span>Articles are for general education and do not replace a medical consultation.</span></div></div></footer>
-<a class="wa-float" href="https://wa.me/919371710257" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
-  <svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.8 1.2 3.2 1.4 3.5 2.4 3.6 5.8 5c2.1.9 3 1 4 .8.7-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.4z"/></svg>
-</a>
-<div class="mobile-bar"><a href="tel:+919371710257">📞 Call Now</a><a href="https://wa.me/919371710257" target="_blank" rel="noopener">💬 WhatsApp</a></div>
-<script>
-document.getElementById('yr').textContent=new Date().getFullYear();
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
-document.querySelectorAll('.reveal,.stagger').forEach(el=>io.observe(el));
-const bar=document.getElementById('progress');addEventListener('scroll',()=>{const h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
-document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
-  document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x===c));const f=c.dataset.f;let shown=0;
-  document.querySelectorAll('.feat,.post').forEach(p=>{const ok=f==='all'||p.dataset.cat===f;p.classList.toggle('hide',!ok);if(ok)shown++});
-  document.querySelectorAll('.soon').forEach(p=>p.classList.toggle('hide',!(f==='all'||p.dataset.cat===f)));
-  document.querySelector('.empty-msg').classList.toggle('hide',shown>0);
-}));
-</script>
-</body></html>
+
+/* ===== Article pages (scoped under .article-page) ===== */
+.article-page{font-size:17px;line-height:1.7}
+.a-hero{background:radial-gradient(800px 400px at 90% 0%,rgba(184,146,74,.16),transparent 60%),var(--cream);padding:40px 0 48px;border-bottom:1px solid var(--line)}
+.a-hero .crumbs{font-size:13px;color:var(--muted);margin-bottom:18px}.a-hero .crumbs a{color:var(--muted);text-decoration:underline}
+.a-tag{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.a-hero h1{font-size:clamp(34px,5vw,56px);margin:10px 0 16px;max-width:900px}
+.a-hero p.dek{font-size:19px;color:var(--muted);max-width:760px}
+.byline{display:flex;align-items:center;gap:14px;margin-top:26px;flex-wrap:wrap}
+.byline img{width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid var(--gold)}
+.byline b{display:block;color:var(--green-900)}.byline span{font-size:14px;color:var(--muted)}
+.a-layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:56px;padding:48px 0 80px}
+.toc{position:sticky;top:96px;align-self:start;font-size:14px;max-height:calc(100vh - 120px);overflow:auto}
+.toc h2{font-size:20px;margin-bottom:12px}.toc ol{list-style:none;counter-reset:t;border-left:2px solid var(--line)}
+.toc li{counter-increment:t}.toc a{display:block;padding:7px 0 7px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--muted);text-decoration:none;line-height:1.35;transition:.2s}
+.toc a::before{content:counter(t) ". ";color:var(--gold);font-weight:700}
+.toc a:hover,.toc a.active{color:var(--green-900);border-left-color:var(--gold);background:linear-gradient(90deg,rgba(184,146,74,.1),transparent)}
+.article-page article{max-width:760px}
+.article-page article a{color:var(--green-700);text-decoration:underline}
+.article-page article .btn{text-decoration:none}
+.article-page article h2{font-size:clamp(28px,3.4vw,38px);margin:52px 0 16px;padding-top:8px;position:relative;scroll-margin-top:96px}
+.article-page article h2::before{content:"";display:block;width:48px;height:3px;background:var(--gold);border-radius:3px;margin-bottom:14px}
+.article-page article h3{font-size:26px;margin:32px 0 10px}
+.article-page article h4{font-family:var(--serif);color:var(--green-900);font-weight:600;font-size:22px;margin:26px 0 6px;display:flex;align-items:center;gap:10px}
+.article-page article h4 .num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--green-100);color:var(--green-800);font-family:var(--sans);font-size:14px;font-weight:700;display:grid;place-items:center}
+.article-page article p{margin:0 0 14px}
+.article-page ul.list{list-style:none;margin:6px 0 20px;display:grid;gap:8px}
+.article-page ul.list li{position:relative;padding-left:28px}
+.article-page ul.list li::before{content:"";position:absolute;left:4px;top:.62em;width:10px;height:10px;border-radius:50%;background:var(--gold-soft);border:2px solid var(--gold)}
+.callout{background:var(--green-100);border-left:4px solid var(--green-700);padding:18px 22px;border-radius:0 14px 14px 0;margin:22px 0;font-size:16px}
+.callout strong{color:var(--green-900)}.callout.warn{background:#fbf3e3;border-color:var(--gold)}
+.callout.danger{background:#fdecea;border-color:#c0392b}.callout.danger strong{color:#922b21;display:block;margin-bottom:4px}
+.table-wrap{overflow-x:auto;margin:18px 0 26px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.table-wrap table{border-collapse:collapse;width:100%;font-size:15px;min-width:480px}
+.table-wrap th,.table-wrap td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.table-wrap thead th{background:var(--green-800);color:#fff;font-weight:600}
+.table-wrap tbody tr:nth-child(odd){background:var(--cream)}.table-wrap tbody tr:hover{background:#f1ebdd}
+.cta-inline{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;background:linear-gradient(110deg,var(--green-800),var(--green-900));color:#dbe7e0;padding:24px 28px;border-radius:18px;margin:36px 0}
+.cta-inline b{display:block;color:#fff;font-family:var(--serif);font-size:24px}
+.faq-list details p{padding:0 20px 16px;color:var(--muted);font-size:16px}
+.author-box{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:center;background:var(--cream);border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:48px}
+.author-box img{width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid var(--gold-soft)}
+.author-box h3{margin:2px 0 6px;font-size:26px}.author-box p{font-size:15px;color:var(--muted);margin:0}
+.end-cta{background:var(--green-900);color:#cfded5;border-radius:24px;padding:36px;margin-top:32px}
+.end-cta h3{color:#fff;font-size:30px;margin-bottom:8px}.end-cta ul{columns:2;gap:24px;margin:16px 0 22px;padding-left:18px;font-size:15px}
+.end-cta .row{display:flex;gap:12px;flex-wrap:wrap}
+.btn-ghost-light{border:1.5px solid #fff;color:#fff}
+.refs{font-size:14.5px;color:var(--muted);margin-top:40px;border-top:1px solid var(--line);padding-top:24px}.refs ol{padding-left:20px;display:grid;gap:6px;margin:10px 0 18px}
+.disclaimer{font-size:13.5px;background:#fff;border:1px dashed var(--line);border-radius:12px;padding:14px 16px}
+@media (max-width:980px){.a-layout{grid-template-columns:minmax(0,1fr)}.toc{position:static;max-height:none;background:var(--cream);border:1px solid var(--line);border-radius:16px;padding:18px}}
+@media (max-width:640px){.article-page{font-size:16px}.author-box{grid-template-columns:1fr;text-align:center}.author-box img{margin:auto}.end-cta{padding:26px 20px}.end-cta ul{columns:1}}
+
+/* ===== Accessibility: readable gold text (WCAG AA 4.5:1) ===== */
+:root{--gold-ink:#8a6a2c}
+.eyebrow,.brand-sub,nav a.active,nav a:hover,.card-more,.card-cta,.cert .meta small,.article-feature .body small,
+.loc .dir-link,table.hours thead th,table.hours tr.today th::after,.feat small,.post small,.soon span,.a-tag,
+.toc a::before,.chip:hover{color:var(--gold-ink)}
+/* on dark green backgrounds keep the light gold */
+.iv .eyebrow,.approach .eyebrow,footer .brand-sub,.svc.feature .card-more,.svc.feature .card-cta{color:var(--gold-soft)}
+.btn-gold,.badge-new,.pkg.best::before{background:var(--gold-ink)}
+.btn-gold:hover{background:#7d5f24}
+.mobile-bar a+a{background:#0f7a5a}
+
+/* ===== Performance: hero content is visible immediately (no wait for JavaScript) ===== */
+@keyframes heroIn{from{transform:translateY(14px)}to{transform:none}}
+.hero .reveal,.w-hero .reveal,.b-hero .reveal,.b-main .feat.reveal{opacity:1;transform:none;animation:heroIn .8s cubic-bezier(.2,.8,.2,1) both}
+.hero .promise>*,.w-hero .promise>*{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.hero .reveal,.w-hero .reveal,.b-hero .reveal,.b-main .feat.reveal{animation:none}}
+
+/* italic accent words use the lazily-loaded italic face */
+.hero h1 em,.w-hero h1 em{font-family:var(--font-serif-italic),var(--serif)}
+.article-page article a.btn{color:#fff;text-decoration:none}
+
+/* Tappable phone / WhatsApp / email links inside text */
+.inline-link{color:var(--green-700);font-weight:700;text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px;cursor:pointer;white-space:nowrap;transition:color .2s}
+.inline-link:hover,.inline-link:focus-visible{color:var(--gold-ink)}
+.inline-link[href^="tel:"]::before{content:"📞 ";text-decoration:none;display:inline-block;margin-right:2px}
+.inline-link.wa::before{content:"💬 ";display:inline-block;margin-right:2px}
+
+/* ===== Visit us (homepage) ===== */
+.visit{background:linear-gradient(180deg,var(--ivory),var(--cream))}
+.visit .lead{margin-inline:auto}
+.visit-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;margin-top:48px;align-items:start}
+.visit-info{background:#fff;border:1px solid var(--line);border-radius:28px;padding:28px;box-shadow:0 24px 50px -36px rgba(18,50,39,.35)}
+.today-strip{display:flex;align-items:center;gap:16px;padding:18px 20px;border-radius:20px;background:linear-gradient(120deg,var(--green-800),var(--green-900));color:#fff}
+.today-ic{width:48px;height:48px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(233,220,194,.35);display:grid;place-items:center;flex:none;color:var(--gold-soft)}
+.today-ic svg{width:24px;height:24px}
+.today-top{display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--gold-soft)}
+.today-hours{font-size:20px;font-weight:700;line-height:1.3;margin-top:4px;white-space:pre-wrap;font-variant-numeric:lining-nums tabular-nums}
+.today-strip .open-badge{letter-spacing:0;text-transform:none;font-size:12px}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.action{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--line);border-radius:16px;background:var(--ivory);cursor:pointer;transition:transform .25s,border-color .25s,box-shadow .25s,background .25s;min-width:0}
+.action:hover,.action:focus-visible{transform:translateY(-3px);border-color:var(--gold);box-shadow:var(--shadow);background:#fff}
+.action b{display:block;color:var(--green-900);font-size:15px}
+.action small{display:block;color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.action>span:last-child{min-width:0}
+.a-ic{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;flex:none;background:var(--green-100);color:var(--green-800);transition:background .25s,color .25s}
+.a-ic svg{width:21px;height:21px}
+.action:hover .a-ic{background:var(--green-800);color:var(--gold-soft)}
+.action.wa .a-ic{background:#e3f4ea;color:#0f7a5a}
+.action.wa:hover .a-ic{background:#0f7a5a;color:#fff}
+.a-ic.small{width:36px;height:36px;border-radius:10px}.a-ic.small svg{width:18px;height:18px}
+.addr{display:flex;gap:12px;align-items:flex-start;margin-top:20px;padding:16px 4px 0;border-top:1px dashed var(--line);color:var(--muted);font-size:14.5px}
+.addr b{color:var(--green-900)}
+.week{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line)}
+.week-title{font-family:var(--serif);font-size:22px;font-weight:600;color:var(--green-900);margin-bottom:6px}
+.week table.hours{min-width:0}
+.visit-book form.book{box-shadow:0 30px 60px -30px rgba(18,50,39,.55)}
+.book-notes{list-style:none;display:grid;gap:10px;margin-top:18px;padding:0 6px}
+.book-notes li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:var(--green-900);font-weight:500}
+.book-notes li::before{content:"✓";flex:none;width:22px;height:22px;border-radius:50%;background:var(--green-800);color:var(--gold-soft);display:grid;place-items:center;font-size:12px;font-weight:700}
+.visit-map{position:relative;margin-top:28px;border-radius:28px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);aspect-ratio:21/8;background:var(--green-100)}
+.visit-map iframe{width:100%;height:100%;border:0;display:block}
+.map-card{position:absolute;left:20px;bottom:20px;background:#fff;border-radius:18px;padding:16px 18px;box-shadow:0 20px 40px -20px rgba(0,0,0,.4);display:grid;gap:4px;max-width:300px}
+.map-card b{font-family:var(--serif);font-size:20px;color:var(--green-900)}
+.map-card span{font-size:13.5px;color:var(--muted);margin-bottom:8px}
+.map-card .btn{padding:10px 18px;font-size:14px;justify-content:center}
+@media (max-width:980px){.visit-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){
+  .visit-info{padding:18px;border-radius:22px}
+  .today-strip{padding:14px 16px}.today-hours{font-size:17px}
+  .actions{grid-template-columns:1fr 1fr;gap:10px}
+  .action{flex-direction:column;align-items:flex-start;gap:8px;padding:12px}
+  .action b{font-size:14px}
+  .visit-map{aspect-ratio:auto;height:auto}
+  .visit-map iframe{height:300px}
+  .map-card{position:static;max-width:none;border-radius:0;box-shadow:none;border-top:1px solid var(--line)}
+}
