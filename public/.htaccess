@@ -9,17 +9,17 @@ RewriteEngine On
 #    Works if drsuraajwellness.com is added to this hosting as an alias/parked/addon domain.
 #    If you set up forwarding at the domain registrar instead, these rules simply never run.
 #    Short links for ads & print: drsuraajwellness.com/iv, /diet, /weight, /skin, /book
-RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness\.com$ [NC]
 RewriteRule ^iv/?$ https://www.drsuraajclinic.com/wellness/#iv-hydration [R=301,L,NE,QSA]
-RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness\.com$ [NC]
 RewriteRule ^diet(ician)?/?$ https://www.drsuraajclinic.com/wellness/#dietician [R=301,L,NE,QSA]
-RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness\.com$ [NC]
 RewriteRule ^weight(-loss)?/?$ https://www.drsuraajclinic.com/wellness/#weight-loss [R=301,L,NE,QSA]
-RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness\.com$ [NC]
 RewriteRule ^skin/?$ https://www.drsuraajclinic.com/wellness/#iv-skin-hair [R=301,L,NE,QSA]
-RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness\.com$ [NC]
 RewriteRule ^book/?$ https://www.drsuraajclinic.com/wellness/#book [R=301,L,NE,QSA]
-RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness(care)?\.com$ [NC]
+RewriteCond %{HTTP_HOST} ^(www\.)?drsuraajwellness\.com$ [NC]
 RewriteRule ^ https://www.drsuraajclinic.com/wellness/ [R=301,L,QSA]
 
 # 2) One canonical address: https://www.drsuraajclinic.com (always www + HTTPS)
