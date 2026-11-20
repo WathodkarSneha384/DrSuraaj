@@ -150,6 +150,76 @@
       "source": "/category/blog/",
       "destination": "/blog/",
       "permanent": true
+    },
+    {
+      "source": "/wellness/iv",
+      "destination": "/wellness/#iv-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/iv/",
+      "destination": "/wellness/#iv-hydration",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/diet",
+      "destination": "/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/diet/",
+      "destination": "/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/dietician",
+      "destination": "/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/dietician/",
+      "destination": "/wellness/#dietician",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/weight",
+      "destination": "/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/weight/",
+      "destination": "/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/weight-loss",
+      "destination": "/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/weight-loss/",
+      "destination": "/wellness/#weight-loss",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/skin",
+      "destination": "/wellness/#iv-skin-hair",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/skin/",
+      "destination": "/wellness/#iv-skin-hair",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/book",
+      "destination": "/wellness/#book",
+      "permanent": true
+    },
+    {
+      "source": "/wellness/book/",
+      "destination": "/wellness/#book",
+      "permanent": true
     }
   ]
 }
